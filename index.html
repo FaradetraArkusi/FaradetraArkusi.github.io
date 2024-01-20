@@ -1,0 +1,660 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.3.450">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<meta name="author" content="Faradetra Arkusi">
+<meta name="dcterms.date" content="2024-01-20">
+
+<title>Pengaruh Investasi Non-Finansial Terhadap Pertumbuhan PDB Indonesia Tahun 2015-2022</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+/* CSS for syntax highlighting */
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
+</style>
+
+
+<script src="index_files/libs/clipboard/clipboard.min.js"></script>
+<script src="index_files/libs/quarto-html/quarto.js"></script>
+<script src="index_files/libs/quarto-html/popper.min.js"></script>
+<script src="index_files/libs/quarto-html/tippy.umd.min.js"></script>
+<script src="index_files/libs/quarto-html/anchor.min.js"></script>
+<link href="index_files/libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="index_files/libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="index_files/libs/bootstrap/bootstrap.min.js"></script>
+<link href="index_files/libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="index_files/libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+
+  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+</head>
+
+<body>
+
+<div id="quarto-content" class="page-columns page-rows-contents page-layout-article">
+<div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+<div class="quarto-alternate-formats"><h2>Other Formats</h2><ul><li><a href="index.docx"><i class="bi bi-file-word"></i>MS Word</a></li></ul></div></div>
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Pengaruh Investasi Non-Finansial Terhadap Pertumbuhan PDB Indonesia Tahun 2015-2022</h1>
+<p class="subtitle lead">Metodologi Penelitian Politeknik APP Jakarta</p>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    <div>
+    <div class="quarto-title-meta-heading">Author</div>
+    <div class="quarto-title-meta-contents">
+             <p>Faradetra Arkusi </p>
+          </div>
+  </div>
+    
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">January 20, 2024</p>
+    </div>
+  </div>
+  
+    
+  </div>
+  
+
+</header>
+
+<p><img src="poltekapp.jpg" class="img-fluid"></p>
+<section id="pendahuluan" class="level2" data-number="1">
+<h2 data-number="1" class="anchored" data-anchor-id="pendahuluan"><span class="header-section-number">1</span> Pendahuluan</h2>
+<section id="latar-belakang" class="level3" data-number="1.1">
+<h3 data-number="1.1" class="anchored" data-anchor-id="latar-belakang"><span class="header-section-number">1.1</span> Latar belakang</h3>
+<p>Penanaman modal jangka panjang dalam bentuk pembelian saham, obligasi, properti, dan surat berharga lain yang merupakan bentuk pengadaan aktiva lengkap untuk memperoleh keuntungan dapat meningkatkan nilai aset atau kekayaan. Saat ini, investasi merupakan bentuk penempatan dana dengan cara memelihara, menaikkan nilai, atau memberikan <em>return</em> yang positif. Keuntungan yang diperoleh saat melakukan investasi sangat beragam, mulai dari keuntungan finansial seperti bunga dan dividen, namun bisa juga berbentuk keuntungan non-finansial seperti prestise atau pengalaman (Janardana, 2023).</p>
+<p>Menurut Badan Pusat Statistik (BPS), penggunaan investasi sangat dibutuhkan oleh semua sektor produksi guna meningkatkan timbulnya nilai tambah dan memacu laju pertumbuhan ekonomi. Pelaksanaan investasi memerlukan peran lembaga keuangan sebagai perantara yang menghubungkan penyedia dana (sektor surplus) dengan sektor yang membutuhkan penyedia dana (sektor defisit). Pada kebijakan sebelumnya, peran lembaga keuangan kurang menonjol. Penyedia dana hanya melakukan investasi finansialnya pada instrumen-instrumen yang masih sangat terbatas seperti tabungan dan deposito, sehingga dana belum dimanfaatkan secara optimal untuk membiayai investasi. Disisi lain, para investor (sektor produksi) masih mengalami kesulitan dalam memperoleh sumber dananya.</p>
+<p>Pemerintah mulai melakukan reformasi ekonomi khususnya di bidang perbankan, seperti penentuan tingkat suku bunga. Dengan begitu, pemilik dana dapat melakukan investasi finansialnya dengan lebih luas dan menarik. Meningkatnya kegiatan pasar modal, menciptakan alternatif tambahan dalam berinvestasi finansial yang bersifat langsung. Dengan perkembangan tersebut, arus finansial dari sektor surplus ke sektor defisit melalui instrumen-instrumen yang ada menjadi lebih kompleks. Dengan demikian, kegiatan produksi dan distribusi barang dan jasa dapat dihasilkan oleh perekonomian nasional yang telah disajikan secara berkala dalam data Produk Domestik Bruto (PDB).</p>
+</section>
+<section id="ruang-lingkup" class="level3" data-number="1.2">
+<h3 data-number="1.2" class="anchored" data-anchor-id="ruang-lingkup"><span class="header-section-number">1.2</span> Ruang lingkup</h3>
+<p>Penelitian ini membahas mengenai pengaruh investasi non-finansial terhadap pertumbuhan PDB Indonesia. Dalam penelitian ini, penulis mengambil objek penelitian yang bersumber dari Badan Pusat Statistik (BPS) dalam laporan neraca arus dana tahunan. Ruang lingkup penelitian ini melibatkan 2 variabel utama, yakni data investasi non-finansial dan pertumbuhan Produk Domestik Bruto (PDB) Indonesia. Data yang digunakan merupakan data yang bersifat <em>time series</em>, yaitu dalam kurun waktu 2015-2022 yang disajikan dalam bentuk satuan triliun (Rp). Data tersebut menjadi acuan objek dalam melakukan penelitian ini.</p>
+</section>
+<section id="rumusan-masalah" class="level3" data-number="1.3">
+<h3 data-number="1.3" class="anchored" data-anchor-id="rumusan-masalah"><span class="header-section-number">1.3</span> Rumusan masalah</h3>
+<p>Berdasarkan uraian pada latar belakang, maka telah diputuskan jenis masalah pokok yang ada pada penelitian ini adalah :</p>
+<ol type="1">
+<li>Apakah investasi non-finansial berpengaruh terhadap pertumbuhan PDB di Indonesia?</li>
+<li>Bagaimana hubungan antara investasi non-finansial terhadap pertumbuhan PDB di Indonesia?</li>
+</ol>
+</section>
+<section id="tujuan-dan-manfaat-penelitian" class="level3" data-number="1.4">
+<h3 data-number="1.4" class="anchored" data-anchor-id="tujuan-dan-manfaat-penelitian"><span class="header-section-number">1.4</span> Tujuan dan manfaat penelitian</h3>
+<p>Didasari dengan latar belakang dan jenis permasalahan yang ada, maka tujuan dari penelitian ini adalah untuk mengetahui pengaruh investasi non-finansial terhadap pertumbuhan PDB Indonesia dan mengetahui bagaimana hubungan antara investasi non-finansial terhadap pertumbuhan PDB di Indonesia.</p>
+<p>Adapun manfaat dari penelitian ini, diantaranya :</p>
+<ol type="1">
+<li><p>Manfaat Teoretis</p>
+<p>Hasil penelitian ini diharapkan dapat berguna bagi banyak pihak, memberikan kontribusi dalam pengembangan teori dan konsep yang telah ada serta sebagai penambah wawasan dan ilmu pengetahuan terkait indikator ekonomi.</p></li>
+<li><p>Manfaat Praktis</p>
+<p>a. Bagi penulis</p>
+<p>Diharapkan dapat bermanfaat bagi penulis dalam meningkatkan kemampuan analisis dan bermanfaat bagi para pembaca yang menggunakan penelitian ini sebagai bahan referensi dengan topik terkait maupun jenis metode penelitian yang digunakan. Sehingga, dengan secara tidak langsung penelitian ini mengalami penyempurnaan dengan karya lain dan dapat berkembang secara terus-menerus.</p>
+<p>b. Bagi Instansi Terkait</p>
+<p>Dengan adanya penelitian ini, diharapkan dapat dijadikan sebagai acuan maupun sebagai bahan masukan untuk terus mengembangkan segala bentuk investasi yang ada di Indonesia agar jumlah PDB yang dimiliki Indonesia dapat terus mengalami perkembangan.</p></li>
+</ol>
+</section>
+<section id="package" class="level3" data-number="1.5">
+<h3 data-number="1.5" class="anchored" data-anchor-id="package"><span class="header-section-number">1.5</span> Package</h3>
+<p>Packages yang digunakan sebagai pendukung regresi univariat dalam pengolahan penelitian ini, antara lain sebagai berikut :</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(tidyverse)</span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(readxl)</span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(<span class="st">"ggplot2"</span>)</span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(<span class="st">"dplyr"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+</section>
+</section>
+<section id="studi-pustaka" class="level2" data-number="2">
+<h2 data-number="2" class="anchored" data-anchor-id="studi-pustaka"><span class="header-section-number">2</span> Studi pustaka</h2>
+<ol type="1">
+<li><p>Investasi Non-Finansial, merupakan bentuk pengeluaran atau komitmen mengenai sumber daya yang tidak melibatkan instrumen keuangan atau tidak diukur dalam satuan uang maupun aset finansial. Investasi non-finansial mencangkup alokasi sumber daya untuk tujuan-tujuan yang bersifat non-moneter, dengan fokus terhadap manfaat sosial, pribadi, maupun lingkungan. Bentuk Investasi ini tidak menghasilkan pengembalian dalam bentuk keuntungan finansial langsung, tetapi dapat membawa dampak positif pada kualitas hidup, pengembangan pribadi, atau masyarakat secara keseluruhan. Menurut Sugiyono (2016) investasi non-finansial adalah investasi yang dilakukan dengan cara membeli barang modal seperti mesin, gedung, tanah, serta investasi pada sumber daya manusia seperti pelatihan dan pengembangan karyawan.</p></li>
+<li><p>Produk Domestik Bruto (PDB), merupakan perubahan laju perekonomian suatu negara yang dihitung dalam periode tahunan (Muhammad, 2023). PDB dijadikan sebagai alat ukur untuk menganalisis pertumbuhan, mengukur kemakmuran relatif dan berkontribusi dalam pembuatan kebijakan ekonomi suatu negara (Nur, 2023). Pertumbuhan Produk Domestik Bruto (PDB) mengacu pada peningkatan nilai total barang dan jasa yang dihasilkan oleh suatu negara selama periode waktu tertentu. Pertumbuhan PDB sering diukur dalam presentase dan memberikan indikasi tentang kesehatan ekonomi suatu negara.</p></li>
+</ol>
+</section>
+<section id="metode-penelitian" class="level2" data-number="3">
+<h2 data-number="3" class="anchored" data-anchor-id="metode-penelitian"><span class="header-section-number">3</span> Metode penelitian</h2>
+<section id="data" class="level3" data-number="3.1">
+<h3 data-number="3.1" class="anchored" data-anchor-id="data"><span class="header-section-number">3.1</span> Data</h3>
+<p>Berikut adalah data yang digunakan sebagai objek penelitian. Data yang digunakan meliputi data investasi non-finansial dan pertumbuhan PDB Indonesia tahun 2015-2022 dalam satuan triliun (Rp).</p>
+<table class="table">
+<thead>
+<tr class="header">
+<th style="text-align: center;">Tahun</th>
+<th style="text-align: center;">Investasi Non-Finansial (X)</th>
+<th style="text-align: center;">Pertumbuhan PDB (Y)</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: center;">2015</td>
+<td style="text-align: center;">3.926,19</td>
+<td style="text-align: center;">11.526,33</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">2016</td>
+<td style="text-align: center;">4.199,07</td>
+<td style="text-align: center;">12.401,73</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">2017</td>
+<td style="text-align: center;">4.581,21</td>
+<td style="text-align: center;">13.589,83</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">2018</td>
+<td style="text-align: center;">5.129,84</td>
+<td style="text-align: center;">14.838,76</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">2019</td>
+<td style="text-align: center;">5.348,29</td>
+<td style="text-align: center;">15.832,66</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">2020</td>
+<td style="text-align: center;">4.994,91</td>
+<td style="text-align: center;">15.443,35</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">2021</td>
+<td style="text-align: center;">5.339,00</td>
+<td style="text-align: center;">16.976,69</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">2022</td>
+<td style="text-align: center;">5.826,65</td>
+<td style="text-align: center;">19.588,45</td>
+</tr>
+</tbody>
+</table>
+<p>Penelitian ini menggunakan data sekunder dengan bentuk data <em>time series</em> investasi non-finansial (X) dan pertumbuhan PDB (Y) Indonesia tahun 2015-2022. Data yang dipakai merupakan data yang diperoleh dan telah diolah melalui sumber Badan Pusat Statistik (BPS) Indonesia.</p>
+<p><img src="images/logobps.png" class="img-fluid"></p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb2"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="co">#Import Dataset</span></span>
+<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(readxl)</span>
+<span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a>dat<span class="ot">&lt;-</span><span class="fu">read_excel</span>(<span class="st">"C:/Metopel_2023/UAS METOPEL/data UAS metopel.xlsx"</span>)</span>
+<span id="cb2-4"><a href="#cb2-4" aria-hidden="true" tabindex="-1"></a>dat</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code># A tibble: 8 × 3
+  Tahun     X      Y
+  &lt;dbl&gt; &lt;dbl&gt;  &lt;dbl&gt;
+1  2015 3926. 11526.
+2  2016 4199. 12402.
+3  2017 4581. 13590.
+4  2018 5130. 14839.
+5  2019 5348. 15833.
+6  2020 4995. 15443.
+7  2021 5339  16977.
+8  2022 5827. 19588.</code></pre>
+</div>
+</div>
+<p>X = Investasi Non-Finansial</p>
+<p>Y = Pertumbuhan PDB</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb4"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="fu">setwd</span>(<span class="st">"C:/Metopel_2023/UAS METOPEL"</span>)</span>
+<span id="cb4-2"><a href="#cb4-2" aria-hidden="true" tabindex="-1"></a>dat<span class="ot">&lt;-</span><span class="fu">read_excel</span>(<span class="st">"C:/Metopel_2023/UAS METOPEL/data UAS metopel.xlsx"</span>)</span>
+<span id="cb4-3"><a href="#cb4-3" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(readxl) </span>
+<span id="cb4-4"><a href="#cb4-4" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(<span class="st">"ggplot2"</span>)</span>
+<span id="cb4-5"><a href="#cb4-5" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(<span class="st">"dplyr"</span>)</span>
+<span id="cb4-6"><a href="#cb4-6" aria-hidden="true" tabindex="-1"></a>reg1<span class="ot">&lt;-</span><span class="fu">lm</span>(Y<span class="sc">~</span>X,<span class="at">data=</span>dat) </span>
+<span id="cb4-7"><a href="#cb4-7" aria-hidden="true" tabindex="-1"></a><span class="fu">ggplot</span>(<span class="at">data=</span>dat,<span class="fu">aes</span>(<span class="at">x=</span>X,<span class="at">y=</span>Y)) <span class="sc">+</span></span>
+<span id="cb4-8"><a href="#cb4-8" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_point</span>(<span class="at">color=</span><span class="st">"green"</span>,<span class="at">size=</span><span class="dv">2</span>) <span class="sc">+</span> </span>
+<span id="cb4-9"><a href="#cb4-9" aria-hidden="true" tabindex="-1"></a>  <span class="fu">scale_color_viridis_c</span>() <span class="sc">+</span></span>
+<span id="cb4-10"><a href="#cb4-10" aria-hidden="true" tabindex="-1"></a>  <span class="fu">labs</span>(<span class="at">title=</span><span class="st">"tabel 1. Pengaruh Investasi Non-Finansial Terhadap Pertumbuhan PDB"</span>,</span>
+<span id="cb4-11"><a href="#cb4-11" aria-hidden="true" tabindex="-1"></a>          <span class="at">x=</span><span class="st">"Investasi Non-Finansial"</span>,</span>
+<span id="cb4-12"><a href="#cb4-12" aria-hidden="true" tabindex="-1"></a>          <span class="at">y=</span><span class="st">"Pertumbuhan PDB"</span>,</span>
+<span id="cb4-13"><a href="#cb4-13" aria-hidden="true" tabindex="-1"></a>          <span class="at">caption =</span> <span class="st">"sumber: Badan Pusat Statistik"</span>) <span class="sc">+</span></span>
+<span id="cb4-14"><a href="#cb4-14" aria-hidden="true" tabindex="-1"></a>  <span class="fu">theme_classic</span>()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output-display">
+<div id="fig-mpg" class="quarto-figure quarto-figure-center anchored">
+<figure class="figure">
+<p><img src="index_files/figure-html/fig-mpg-1.png" class="img-fluid figure-img" width="672"></p>
+<figcaption class="figure-caption">Figure&nbsp;1: City and highway mileage for 38 popular models of cars.Color by number of cylinders</figcaption>
+</figure>
+</div>
+</div>
+</div>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb5"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(readxl) </span>
+<span id="cb5-2"><a href="#cb5-2" aria-hidden="true" tabindex="-1"></a>dat<span class="sc">$</span>u<span class="ot">&lt;-</span><span class="fu">resid</span>(reg1)</span>
+<span id="cb5-3"><a href="#cb5-3" aria-hidden="true" tabindex="-1"></a><span class="fu">ggplot</span>(<span class="at">data=</span>dat,<span class="fu">aes</span>(<span class="at">x=</span>X,<span class="at">y=</span>u)) <span class="sc">+</span></span>
+<span id="cb5-4"><a href="#cb5-4" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_point</span>(<span class="at">color=</span><span class="st">"green"</span>,<span class="at">size=</span><span class="dv">2</span>) <span class="sc">+</span> </span>
+<span id="cb5-5"><a href="#cb5-5" aria-hidden="true" tabindex="-1"></a>  <span class="fu">scale_color_viridis_c</span>() <span class="sc">+</span></span>
+<span id="cb5-6"><a href="#cb5-6" aria-hidden="true" tabindex="-1"></a>  <span class="fu">labs</span>(<span class="at">title=</span><span class="st">"tabel 2. Pengaruh Error Terhadap Investasi Non-Finansial"</span>,</span>
+<span id="cb5-7"><a href="#cb5-7" aria-hidden="true" tabindex="-1"></a>          <span class="at">x=</span><span class="st">"Investasi Non-Finansial"</span>,  </span>
+<span id="cb5-8"><a href="#cb5-8" aria-hidden="true" tabindex="-1"></a>          <span class="at">y=</span><span class="st">"Error"</span>,</span>
+<span id="cb5-9"><a href="#cb5-9" aria-hidden="true" tabindex="-1"></a>          <span class="at">caption =</span> <span class="st">"sumber: Badan Pusat Statistik"</span>) <span class="sc">+</span></span>
+<span id="cb5-10"><a href="#cb5-10" aria-hidden="true" tabindex="-1"></a>  <span class="fu">theme_classic</span>()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output-display">
+<p><img src="index_files/figure-html/unnamed-chunk-4-1.png" class="img-fluid" width="672"></p>
+</div>
+</div>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb6"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(readxl) </span>
+<span id="cb6-2"><a href="#cb6-2" aria-hidden="true" tabindex="-1"></a>dat<span class="sc">$</span>u<span class="ot">&lt;-</span><span class="fu">resid</span>(reg1)</span>
+<span id="cb6-3"><a href="#cb6-3" aria-hidden="true" tabindex="-1"></a><span class="fu">ggplot</span>(<span class="at">data=</span>dat,<span class="fu">aes</span>(<span class="at">x=</span>Y,<span class="at">y=</span>u)) <span class="sc">+</span></span>
+<span id="cb6-4"><a href="#cb6-4" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_point</span>(<span class="at">color=</span><span class="st">"green"</span>,<span class="at">size=</span><span class="dv">2</span>) <span class="sc">+</span> </span>
+<span id="cb6-5"><a href="#cb6-5" aria-hidden="true" tabindex="-1"></a>  <span class="fu">scale_color_viridis_c</span>() <span class="sc">+</span></span>
+<span id="cb6-6"><a href="#cb6-6" aria-hidden="true" tabindex="-1"></a>  <span class="fu">labs</span>(<span class="at">title=</span><span class="st">"tabel 3. Pengaruh Error Terhadap Pertumbuhan PDB"</span>,</span>
+<span id="cb6-7"><a href="#cb6-7" aria-hidden="true" tabindex="-1"></a>          <span class="at">x=</span><span class="st">"Pertumbuhan PDB "</span>,</span>
+<span id="cb6-8"><a href="#cb6-8" aria-hidden="true" tabindex="-1"></a>          <span class="at">y=</span><span class="st">"Error"</span>,</span>
+<span id="cb6-9"><a href="#cb6-9" aria-hidden="true" tabindex="-1"></a>          <span class="at">caption =</span> <span class="st">"sumber: Badan Pusat Statistik"</span>) <span class="sc">+</span></span>
+<span id="cb6-10"><a href="#cb6-10" aria-hidden="true" tabindex="-1"></a>  <span class="fu">theme_classic</span>()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output-display">
+<p><img src="index_files/figure-html/unnamed-chunk-5-1.png" class="img-fluid" width="672"></p>
+</div>
+</div>
+</section>
+<section id="metode-analisis" class="level3" data-number="3.2">
+<h3 data-number="3.2" class="anchored" data-anchor-id="metode-analisis"><span class="header-section-number">3.2</span> Metode analisis</h3>
+<p>Metode analisis yang digunakan dalam penelitian ini adalah regresi univariat atau Ordinary Least Square (OLS) yang memiliki 1 variabel independen, yaitu investasi non-finansial dan 1 variabel dependen, yaitu pertumbuhan PDB. Tujuan dengan adanya penelitian ini adalah untuk mengidentifikasi hubungan antara investasi non-finansial (X) terhadap pertumbuhan PDB Indonesia (Y). Spesifikasi yang dilakukan adalah sebagai berikut :</p>
+<p><span class="math display">\[
+y_{t}=\beta_0 + \beta_1 x_t+\mu_t
+\]</span></p>
+<p>Di mana <span class="math inline">\(y_t\)</span> adalah indikator Y dan <span class="math inline">\(x_t\)</span> adalah indikator X. Dengan ketentuan Y adalah Pertumbuhan PDB dan X adalah Investasi Non-Finansial.</p>
+</section>
+</section>
+<section id="pembahasan" class="level2" data-number="4">
+<h2 data-number="4" class="anchored" data-anchor-id="pembahasan"><span class="header-section-number">4</span> Pembahasan</h2>
+<section id="pembahasan-masalah" class="level3" data-number="4.1">
+<h3 data-number="4.1" class="anchored" data-anchor-id="pembahasan-masalah"><span class="header-section-number">4.1</span> Pembahasan masalah</h3>
+<table class="table">
+<thead>
+<tr class="header">
+<th style="text-align: center;">Variable</th>
+<th style="text-align: center;">Coefficient</th>
+<th style="text-align: center;">Std.Error</th>
+<th style="text-align: center;">t-value</th>
+<th style="text-align: center;">Prob(.)</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: center;">Intercept</td>
+<td style="text-align: center;">-4193.7605</td>
+<td style="text-align: center;">2113.8802</td>
+<td style="text-align: center;">-1.984</td>
+<td style="text-align: center;">0.0945</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">X</td>
+<td style="text-align: center;">3.9077</td>
+<td style="text-align: center;">0.4267</td>
+<td style="text-align: center;">9.158</td>
+<td style="text-align: center;">9.54e-05</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">R squared</td>
+<td style="text-align: center;">0.9332</td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">Adjusted R-Squared</td>
+<td style="text-align: center;">0.9221</td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">F-Statistic</td>
+<td style="text-align: center;">83.88</td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">Prob (F-Statistic)</td>
+<td style="text-align: center;">9.54e-05</td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+</tr>
+</tbody>
+</table>
+<p>Hasil regresi yang diperoleh dimasukkan ke dalam rumus persamaan, sehingga memperoleh :</p>
+<p>$$Y = (-4193.7605) + 3.9077X$$</p>
+<p>Keikutsertaan investasi non-finansial turut berkontribusi dan menghasilkan pengaruh yang positif pada pertumbuhan Produk Domestik Bruto (PDB) di Indonesia, dilihat dari variabel X yang menghasilkan nilai positif. Jika diasumsikan pada setiap kenaikan kontribusi investasi non-finansial sebesar 1, maka nilai pertumbuhan PDB akan meningkat sebesar 3.9077. Tetapi jika kontribusi investasi non-finansial = 0, maka pertumbuhan PDB akan menurun sebesar -4193.7605%.</p>
+<p>Nilai Adjusted R-Squared 0.9221 menunjukkan bahwa sebesar 92.21% variabel dependen dapat dijelaskan oleh model regresi. Nilai F-Statistic yang tinggi, yaitu sebesar 83.88 dan nilai p-value yang rendah, yaitu sebesar 9.54e-05 menunjukkan bahwa model secara keseluruhan memiliki kecenderungan yang signifikan. Nilai p-value yang rendah pada variabel X juga menunjukkan bahwa variabel tersebut dapat berpengaruh signifikan terhadap variabel Y. Sehingga dapat disimpulkan bahwa kontribusi investasi non-finansial memiliki pengaruh yang signifikan terhadap pertumbuhan Produk Domestik Bruto (PDB) di Indonesia.</p>
+</section>
+<section id="analisis-masalah" class="level3" data-number="4.2">
+<h3 data-number="4.2" class="anchored" data-anchor-id="analisis-masalah"><span class="header-section-number">4.2</span> Analisis masalah</h3>
+<p>Diperoleh hasil regresi, sebagai berikut :</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb7"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(readxl)</span>
+<span id="cb7-2"><a href="#cb7-2" aria-hidden="true" tabindex="-1"></a>dat<span class="ot">&lt;-</span><span class="fu">read_excel</span>(<span class="st">"C:/Metopel_2023/UAS METOPEL/data UAS metopel.xlsx"</span>)</span>
+<span id="cb7-3"><a href="#cb7-3" aria-hidden="true" tabindex="-1"></a>reg1<span class="ot">&lt;-</span><span class="fu">lm</span>(Y<span class="sc">~</span>X,<span class="at">data=</span>dat)</span>
+<span id="cb7-4"><a href="#cb7-4" aria-hidden="true" tabindex="-1"></a><span class="fu">summary</span>(reg1)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>
+Call:
+lm(formula = Y ~ X, data = dat)
+
+Residuals:
+    Min      1Q  Median      3Q     Max 
+-1013.2  -306.9   152.8   325.0  1013.6 
+
+Coefficients:
+              Estimate Std. Error t value Pr(&gt;|t|)    
+(Intercept) -4193.7605  2113.8802  -1.984   0.0945 .  
+X               3.9077     0.4267   9.158 9.54e-05 ***
+---
+Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
+
+Residual standard error: 720.7 on 6 degrees of freedom
+Multiple R-squared:  0.9332,    Adjusted R-squared:  0.9221 
+F-statistic: 83.88 on 1 and 6 DF,  p-value: 9.54e-05</code></pre>
+</div>
+</div>
+<p>Pada setiap kenaikan kontribusi investasi non-finansial yang diasumsikan dengan nilai 1, maka mampu meningkatkan pertumbuhan PDB sebesar 3.9077. Tetapi, apabila kontribusi investasi non-finansial = 0, maka pertumbuhan PDB akan menurun sebesar 4193.7605.</p>
+</section>
+</section>
+<section id="kesimpulan" class="level2" data-number="5">
+<h2 data-number="5" class="anchored" data-anchor-id="kesimpulan"><span class="header-section-number">5</span> Kesimpulan</h2>
+<p>Berdasarkan hasil penelitian yang dilakukan melalui sistem regresi univariat atau <em>Ordinary Least Square</em> (OLS), dapat disimpulkan bahwa investasi non-finansial berpengaruh terhadap pertumbuhan Produk Domestik Bruto (PDB) di Indonesia. Hasil analisis menunjukkan bahwa setiap kenaikan kontribusi investasi non-finansial dengan nilai sebesar 1, dapat memberi dampak positif terhadap pertumbuhan Produk Domestik Bruto (PDB) dengan nilai sebesar 3.9077. Namun, apabila kontribusi sektor tersebut mengalami penurunan mencapai nilai nol (0), maka akan berdampak negatif terhadap pertumbuhan Produk Domestik Bruto (PDB) karena mengakibatkan penurunan nilai sebesar 4193.7605. Dengan demikian, adanya kontribusi investasi non-finansial disamping investasi finansial dapat saling berkontribusi dalam meningkatkan pertumbuhan PDB Indonesia guna meningkatkan sarana dan prasarana negara, meningkatkan pembangunan, dan perkembangan taraf hidup masyarakat khususnya di negara berkembang.</p>
+</section>
+<section id="referensi" class="level2" data-number="6">
+<h2 data-number="6" class="anchored" data-anchor-id="referensi"><span class="header-section-number">6</span> Referensi</h2>
+<p>Bizhare.id. (2023, September 8). Apa Itu Investasi: Pengertian, Jenis, dan Contohnya. Bizhare. <a href="https://www.bizhare.id/media/investasi/apa-itu-investasi" class="uri">https://www.bizhare.id/media/investasi/apa-itu-investasi</a></p>
+<p>Kompas.com. (2023, Desember 6). Pengertian Pertumbuhan Ekonomi, Perhitungan, dan Faktor Penentunya. KOMPAS.com. <a href="https://money.kompas.com/read/2023/12/06/141207026/pengertian-pertumbuhan-ekonomi-perhitungan-dan-faktor-penentunya" class="uri">https://money.kompas.com/read/2023/12/06/141207026/pengertian-pertumbuhan-ekonomi-perhitungan-dan-faktor-penentunya</a></p>
+<p>Kompas.com. (2023, Juli 17). PDB Adalah: Pengertian, Komponen, Manfaat, dan Cara Menghitungnya. KOMPAS.com. <a href="https://money.kompas.com/read/2023/07/17/235431926/pdb-adalah-pengertian-komponen-manfaat-dan-cara-menghitungnya" class="uri">https://money.kompas.com/read/2023/07/17/235431926/pdb-adalah-pengertian-komponen-manfaat-dan-cara-menghitungnya</a></p>
+<p>Badan Pusat Statistik Indonesia. (2 Oktober 2020). <em>Neraca Arus Dana Indonesia Tahunan 2015-2019</em>. Diakses pada 20 Januari 2024, dari <a href="https://www.bps.go.id/id/publication/2020/10/02/9e780384e4d543572d7153d7/neraca-arus-dana-indonesia-tahunan-2015-2019.html" class="uri">https://www.bps.go.id/id/publication/2020/10/02/9e780384e4d543572d7153d7/neraca-arus-dana-indonesia-tahunan-2015-2019.html</a></p>
+<p>Badan Pusat Statistik Indonesia. (1 Oktober 2021). <em>Neraca Arus Dana Indonesia Tahunan 2016-2020</em>. Diakses pada 20 Januari 2024, dari <a href="https://www.bps.go.id/id/publication/2021/10/01/36f398358b21c02199a34118/neraca-arus-dana-indonesia-tahunan-2016-2020.html" class="uri">https://www.bps.go.id/id/publication/2021/10/01/36f398358b21c02199a34118/neraca-arus-dana-indonesia-tahunan-2016-2020.html</a></p>
+<p>Badan Pusat Statistik Indonesia. (29 September 2023). <em>Neraca Arus Dana Indonesia Tahunan 2018-2022</em>. Diakses pada 20 Januari 2024, dari <a href="https://www.bps.go.id/id/publication/2023/09/29/4e5a8d9780173f173a44a753/neraca-arus-dana-indonesia-tahunan-2018-2022.html" class="uri">https://www.bps.go.id/id/publication/2023/09/29/4e5a8d9780173f173a44a753/neraca-arus-dana-indonesia-tahunan-2018-2022.html</a></p>
+</section>
+
+</main>
+<!-- /main column -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
+  const clipboard = new window.ClipboardJS('.code-copy-button', {
+    text: function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+  });
+  clipboard.on('success', function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copied!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  });
+  function tippyHover(el, contentFn) {
+    const config = {
+      allowHTML: true,
+      content: contentFn,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start'
+    };
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      return note.innerHTML;
+    });
+  }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+});
+</script>
+</div> <!-- /content -->
+
+
+
+</body></html>
